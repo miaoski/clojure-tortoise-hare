@@ -18,6 +18,7 @@
    (let [[tortoise hare] (floyd f (f x0) (f (f x0)))
          mu  (floyd-mu  f x0       hare         0)
          lam (floyd-lam f tortoise (f tortoise) 1)]
+     (println "mu=" mu ", lam=" lam)
      [mu lam]))
   ([f tortoise hare]
    (println "tortoise=" tortoise ", hare=" hare)
