@@ -1,13 +1,13 @@
 # clojure-tortoise-hare
 
-A Clojure library designed to ... well, that part is up to you.
+A demonstration of the tortoise-hare algorithm in Clojure.
+Please refer to `http://en.wikipedia.org/wiki/Cycle_detection`.
 
 ## Usage
 
-FIXME
+Type `lein test` to play.
 
 ## License
 
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Copyright © 2013 Zhemin Lin.
+C'mon, it's just a toy.  Make it public domain.
